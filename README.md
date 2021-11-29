@@ -8,15 +8,18 @@ HomeWork_1129
 ###### HomeWork h6
 
 just is <p>
-  -size
-  -size again
-    -size in size
+  -insize
+  -insize again
+    -insize & insize
+      -insize & insize & insize
   
->line and size
+>line & insize
 
 *Italic*
 
-[this is my teacher fb link](https://zh-tw.facebook.com/kuyaw.chang)
+[This is my teacher facebook link](https://zh-tw.facebook.com/kuyaw.chang)
 
-this is my teacher
+This is my teacher
 ![](https://images.1111.com.tw/discussPic/82/51798282_145203545.500258.JPG)
+  
+[*#This is my school*](https://www.dyu.edu.tw/)
