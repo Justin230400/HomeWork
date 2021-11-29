@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>计算机概论</title>
+	</head>
+    <script>
+        function isEven(num)
+        {
+            if(num%2 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        function input_pint()
+        {
+            let pInteger = document.getElementById("pint").value;
+            // alert(pInteger)
+            return pInteger;
+        } 
+
+        function isPInteger(num)
+        {
+            if(isNaN(num))
+            {
+                return false;
+            }
+            
+            if(num < 0)
+            {
+                return false;
+            }
+
+            if(num%1 != 0)
+            {
+                return false;
+            }
+
+            return true;
+            
+        }
+
+        function isInt(value) 
+        {
+            return !isNaN(value) && (function(x) { return (x | 0) === x; })(parseFloat(value))
+        }
+
+        function onBtnClick_isEven()
+        {
+            let num = input_pint()
+            if(isPInteger(num))
+            {
+                if(isEven(num))
+                {
+                    document.getElementById("result1").innerText = num + " is Even"
+                }
+                else
+                {
+                    document.getElementById("result1").innerText = num + " is not Even"
+                }
+            }
+            else
+            {
+                alert("do you know what is positive integer?")
+            }
+        }
+
+        function onBtnClick_StudentID()
+        {
+
+        }
+    </script>
+    <body>
+        <label for="pint">plese enter a positive integer.</label>
+        <input type="text" id="pint" name="pint"><br><br>
+
+        <button type="button" onclick="onBtnClick_isEven()">Submit</button>
+
+        <p id='result1'>display result here...</p>
+
+        <p>----------------------------------------------------------------------</p>
+
+        <label for="">Plese enter your student ID</label>
+        <input type="text" id="sID" name="sID"><br><br>
+
+        <button type="button" onclick="onBtnClick_StudentID()">Submit</button>
+
+        <p id='result2'>display result here...</p>
+    </body> 
+</html>
