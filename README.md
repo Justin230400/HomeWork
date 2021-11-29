@@ -8,10 +8,10 @@ HomeWork_1129
 ###### HomeWork h6
 
 just is <p>
-  -insize
-  -insize again
-    -insize & insize
-      -insize & insize & insize
+  - insize
+  - insize again
+    - insize & insize
+      - insize & insize & insize
   
 >line & insize
 
