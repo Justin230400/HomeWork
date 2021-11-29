@@ -16,9 +16,13 @@ just is <p>
 >line & insize
 
 *Italic*
+  
 **Bold**
+  
 ***Bold & Italic***
+  
 __This is my underline__
+  
 ~~My thacher is very old~~
   
 [This is my teacher facebook link](https://zh-tw.facebook.com/kuyaw.chang)
