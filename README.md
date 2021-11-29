@@ -23,6 +23,6 @@ This is my teacher
 ![](https://images.1111.com.tw/discussPic/82/51798282_145203545.500258.JPG)
 
   
-># [*This is my school*](https://www.dyu.edu.tw/)
-  >This is my school environment
-   >![](http://images.1111.com.tw/discussPic/45/51648645_72723195.707973.png)
+>- # [*This is my school*](https://www.dyu.edu.tw/)
+  >- This is my school environment
+   >- ![](http://images.1111.com.tw/discussPic/45/51648645_72723195.707973.png)
